@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>79CEC332-DBF3-4BD2-BD57-7E996A0DA6EE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>IntroMiTestApplication</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>AA9A7746CE775671D4AF27B5B3653A307A61D920</key>
+		<string>https://github.com/dfoa/IntroMiTest.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IntroMiTestApplication/IntroMiTestApplication.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>AA9A7746CE775671D4AF27B5B3653A307A61D920</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/dfoa/IntroMiTest.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>AA9A7746CE775671D4AF27B5B3653A307A61D920</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>AA9A7746CE775671D4AF27B5B3653A307A61D920</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IntromSDK</string>
+		</dict>
+	</array>
+</dict>
+</plist>

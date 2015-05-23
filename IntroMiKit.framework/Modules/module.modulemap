@@ -1,0 +1,6 @@
+framework module IntroMiKit {
+  umbrella header "IntroMiKit.h"
+
+  export *
+  module * { export * }
+}

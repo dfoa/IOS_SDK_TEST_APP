@@ -1,0 +1,387 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5176D23C1B0D254F00438C54 /* introMi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5176D23B1B0D254F00438C54 /* introMi.png */; };
+		51C87AC71B092D8D00BF17B5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C87AC61B092D8D00BF17B5 /* RegisterViewController.m */; };
+		51C87ACC1B092E4F00BF17B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C87ACA1B092E4F00BF17B5 /* Main.storyboard */; };
+		51C8A0E71B091CCD00A9E404 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0DA1B091CCD00A9E404 /* CustomTableCell.m */; };
+		51C8A0E81B091CCD00A9E404 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 51C8A0DB1B091CCD00A9E404 /* en.lproj */; };
+		51C8A0E91B091CCD00A9E404 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C8A0DC1B091CCD00A9E404 /* Images.xcassets */; };
+		51C8A0EA1B091CCD00A9E404 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51C8A0DD1B091CCD00A9E404 /* Info.plist */; };
+		51C8A0EB1B091CCD00A9E404 /* IntroMiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0E01B091CCD00A9E404 /* IntroMiAppDelegate.m */; };
+		51C8A0EC1B091CCD00A9E404 /* IntroMiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0E21B091CCD00A9E404 /* IntroMiTableViewController.m */; };
+		51C8A0ED1B091CCD00A9E404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0E31B091CCD00A9E404 /* main.m */; };
+		51D88B6A1B10113400E6505B /* IntroMiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D88B681B10110900E6505B /* IntroMiKit.framework */; };
+		51D88B6B1B10113400E6505B /* IntroMiKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51D88B681B10110900E6505B /* IntroMiKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F4DB43A319680299001826C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A219680299001826C4 /* CoreGraphics.framework */; };
+		F4DB43A519680299001826C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A419680299001826C4 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		51D88B411B0D795200E6505B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				51D88B6B1B10113400E6505B /* IntroMiKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5176D23B1B0D254F00438C54 /* introMi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introMi.png; sourceTree = SOURCE_ROOT; };
+		51C87AC61B092D8D00BF17B5 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = IntroMi/RegisterViewController.m; sourceTree = SOURCE_ROOT; };
+		51C87ACB1B092E4F00BF17B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IntroMi/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		51C8A0D91B091CCD00A9E404 /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTableCell.h; path = IntroMi/CustomTableCell.h; sourceTree = SOURCE_ROOT; };
+		51C8A0DA1B091CCD00A9E404 /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTableCell.m; path = IntroMi/CustomTableCell.m; sourceTree = SOURCE_ROOT; };
+		51C8A0DB1B091CCD00A9E404 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = IntroMi/en.lproj; sourceTree = SOURCE_ROOT; };
+		51C8A0DC1B091CCD00A9E404 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = IntroMi/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		51C8A0DD1B091CCD00A9E404 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = IntroMi/Info.plist; sourceTree = SOURCE_ROOT; };
+		51C8A0DE1B091CCD00A9E404 /* IntroMi-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "IntroMi-Prefix.pch"; path = "IntroMi/IntroMi-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		51C8A0DF1B091CCD00A9E404 /* IntroMiAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroMiAppDelegate.h; path = IntroMi/IntroMiAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		51C8A0E01B091CCD00A9E404 /* IntroMiAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroMiAppDelegate.m; path = IntroMi/IntroMiAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		51C8A0E11B091CCD00A9E404 /* IntroMiTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroMiTableViewController.h; path = IntroMi/IntroMiTableViewController.h; sourceTree = SOURCE_ROOT; };
+		51C8A0E21B091CCD00A9E404 /* IntroMiTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroMiTableViewController.m; path = IntroMi/IntroMiTableViewController.m; sourceTree = SOURCE_ROOT; };
+		51C8A0E31B091CCD00A9E404 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IntroMi/main.m; sourceTree = SOURCE_ROOT; };
+		51C8A0E41B091CCD00A9E404 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = IntroMi/RegisterViewController.h; sourceTree = SOURCE_ROOT; };
+		51D70C061B0656E200E09789 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		51D88B681B10110900E6505B /* IntroMiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IntroMiKit.framework; sourceTree = "<group>"; };
+		F4DB439D19680299001826C4 /* IntroMiTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroMiTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DB43A019680299001826C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4DB43A219680299001826C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F4DB43A419680299001826C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DB439A19680299001826C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DB43A319680299001826C4 /* CoreGraphics.framework in Frameworks */,
+				F4DB43A519680299001826C4 /* UIKit.framework in Frameworks */,
+				51D88B6A1B10113400E6505B /* IntroMiKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4DB439419680299001826C4 = {
+			isa = PBXGroup;
+			children = (
+				F4DB43A619680299001826C4 /* IntroMiTestApplication */,
+				F4DB439F19680299001826C4 /* Frameworks */,
+				F4DB439E19680299001826C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DB439E19680299001826C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DB439D19680299001826C4 /* IntroMiTestApplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DB439F19680299001826C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51D88B681B10110900E6505B /* IntroMiKit.framework */,
+				51D70C061B0656E200E09789 /* GLKit.framework */,
+				F4DB43A019680299001826C4 /* Foundation.framework */,
+				F4DB43A219680299001826C4 /* CoreGraphics.framework */,
+				F4DB43A419680299001826C4 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4DB43A619680299001826C4 /* IntroMiTestApplication */ = {
+			isa = PBXGroup;
+			children = (
+				51C8A0DE1B091CCD00A9E404 /* IntroMi-Prefix.pch */,
+				51C8A0DF1B091CCD00A9E404 /* IntroMiAppDelegate.h */,
+				51C8A0E01B091CCD00A9E404 /* IntroMiAppDelegate.m */,
+				51C8A0E11B091CCD00A9E404 /* IntroMiTableViewController.h */,
+				51C8A0E21B091CCD00A9E404 /* IntroMiTableViewController.m */,
+				51C8A0DA1B091CCD00A9E404 /* CustomTableCell.m */,
+				51C8A0E31B091CCD00A9E404 /* main.m */,
+				51C8A0D91B091CCD00A9E404 /* CustomTableCell.h */,
+				51C87AC61B092D8D00BF17B5 /* RegisterViewController.m */,
+				51C8A0E41B091CCD00A9E404 /* RegisterViewController.h */,
+				F4DB43A719680299001826C4 /* Supporting Files */,
+			);
+			name = IntroMiTestApplication;
+			path = KivaLoan;
+			sourceTree = "<group>";
+		};
+		F4DB43A719680299001826C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5176D23B1B0D254F00438C54 /* introMi.png */,
+				51C8A0DB1B091CCD00A9E404 /* en.lproj */,
+				51C8A0DC1B091CCD00A9E404 /* Images.xcassets */,
+				51C87ACA1B092E4F00BF17B5 /* Main.storyboard */,
+				51C8A0DD1B091CCD00A9E404 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DB439C19680299001826C4 /* IntroMiTestApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DB43CF19680299001826C4 /* Build configuration list for PBXNativeTarget "IntroMiTestApplication" */;
+			buildPhases = (
+				F4DB439919680299001826C4 /* Sources */,
+				F4DB439A19680299001826C4 /* Frameworks */,
+				F4DB439B19680299001826C4 /* Resources */,
+				51D88B411B0D795200E6505B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IntroMiTestApplication;
+			productName = KivaLoan;
+			productReference = F4DB439D19680299001826C4 /* IntroMiTestApplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DB439519680299001826C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KivaLoan;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Appcoda;
+			};
+			buildConfigurationList = F4DB439819680299001826C4 /* Build configuration list for PBXProject "IntroMiTestApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DB439419680299001826C4;
+			productRefGroup = F4DB439E19680299001826C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4DB439C19680299001826C4 /* IntroMiTestApplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DB439B19680299001826C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5176D23C1B0D254F00438C54 /* introMi.png in Resources */,
+				51C87ACC1B092E4F00BF17B5 /* Main.storyboard in Resources */,
+				51C8A0E91B091CCD00A9E404 /* Images.xcassets in Resources */,
+				51C8A0E81B091CCD00A9E404 /* en.lproj in Resources */,
+				51C8A0EA1B091CCD00A9E404 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DB439919680299001826C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C87AC71B092D8D00BF17B5 /* RegisterViewController.m in Sources */,
+				51C8A0EB1B091CCD00A9E404 /* IntroMiAppDelegate.m in Sources */,
+				51C8A0EC1B091CCD00A9E404 /* IntroMiTableViewController.m in Sources */,
+				51C8A0ED1B091CCD00A9E404 /* main.m in Sources */,
+				51C8A0E71B091CCD00A9E404 /* CustomTableCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51C87ACA1B092E4F00BF17B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51C87ACB1B092E4F00BF17B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DB43CD19680299001826C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "IntroMi/IntroMi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F4DB43CE19680299001826C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_MEMORY_MANAGEMENT = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREFIX_HEADER = "IntroMi/IntroMi-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DB43D019680299001826C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/aaa-akxrgmmojuykfacoxppexntzftrt/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/IntroMiTests",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntroMi/IntroMi-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/IntroMi/info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4DB43D119680299001826C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/aaa-akxrgmmojuykfacoxppexntzftrt/Build/Products/Debug-iphoneos",
+					"$(PROJECT_DIR)/IntroMiTests",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IntroMi/IntroMi-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/IntroMi/info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DB439819680299001826C4 /* Build configuration list for PBXProject "IntroMiTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB43CD19680299001826C4 /* Debug */,
+				F4DB43CE19680299001826C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DB43CF19680299001826C4 /* Build configuration list for PBXNativeTarget "IntroMiTestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DB43D019680299001826C4 /* Debug */,
+				F4DB43D119680299001826C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DB439519680299001826C4 /* Project object */;
+}
