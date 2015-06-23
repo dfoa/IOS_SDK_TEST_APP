@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IntroMi/IntroMiTableViewController.m"
-            timestampString = "453602899.396083"
+            timestampString = "456786174.376772"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "-scanAction:"
             landmarkType = "5">
          </BreakpointContent>

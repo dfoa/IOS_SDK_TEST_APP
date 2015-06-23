@@ -9,7 +9,7 @@
 
 #import "IntroMiTableViewController.h"
 #import "CustomTableCell.h"
-#import   <IntroMiKit/IntroMiKit.h>
+#import <IntroMiKit/IntroMiKit.h>
 
 
 
@@ -127,22 +127,29 @@
         
         
         __weak typeof(self) weakSelf = self;
-        [self.serviceManager startAdvertise];
-        [self.serviceManager  manualScan:^(Person *person) {
+        [self.serviceManager startAdvertise:^(Person *person) {
             
             
-            NSLog(@"found new user %@",person.name);
+            NSLog(@"found new user by Peripheral %@",person.name);
             if (person != nil) {
                 [personList addObject:person];
                 [weakSelf.tableView reloadData];
-                //[self performSelectorOnMainThread:@selector(reloadData) withObject:nil waitUntilDone:NO];
-                
+            }
+        } ];
+
+        [self.serviceManager  manualScan:^(Person *person) {
+            
+            
+            NSLog(@"found new user  by Central%@",person.name);
+            if (person != nil) {
+                [personList addObject:person];
+                [weakSelf.tableView reloadData];
             }
         } ];
         
     
     
-    
+   
     
 }
 @end

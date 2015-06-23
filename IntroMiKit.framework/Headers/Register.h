@@ -22,8 +22,8 @@
 
 
 
-- (instancetype)initWithUinqueId:(NSString *)uinqueId andCompanyToken:(NSString *)companyToken andName:(NSString*)name;
--(void)doRegistration:(void (^)(int result))completionHandler andConnectionErrors:(void(^)(NSString *error)) connectioErrors;
+- (instancetype)initWithUniqueId:(NSString *)uniqueId andCompanyToken:(NSString *)companyToken andName:(NSString*)name;
+-(void)doRegistration:(void (^)(int result))completionHandler andConnectionErrors:(void(^)(NSString *error)) connectionErrors;
 
 
 @end

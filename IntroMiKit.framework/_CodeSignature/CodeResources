@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>.DS_Store</key>
+		<data>
+		K68jXgGNk5g6bKbY+LSZFDySdgI=
+		</data>
 		<key>Headers/IntroMiKit.h</key>
 		<data>
 		DqIptVAa1cf9W0U/klWMunFgPlA=
@@ -14,15 +18,15 @@
 		</data>
 		<key>Headers/Register.h</key>
 		<data>
-		Wq1jxTQtD1o8zybpegfOngFekQY=
+		xPjt1oZHDCPq2WijeV7ptdRX1e4=
 		</data>
 		<key>Headers/ServiceManager.h</key>
 		<data>
-		1JaQ4OyEaFRCQdePI3YuWDc7D9Q=
+		Nl3KWHpjvpw8a0VNeWVbj6b29QA=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		r/orzPUhOlXVnrxyX9pQAYDIge4=
+		aR4yAezaXi9nUUGFoGu+cLMu5GA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -45,11 +49,11 @@
 		</data>
 		<key>Headers/Register.h</key>
 		<data>
-		Wq1jxTQtD1o8zybpegfOngFekQY=
+		xPjt1oZHDCPq2WijeV7ptdRX1e4=
 		</data>
 		<key>Headers/ServiceManager.h</key>
 		<data>
-		1JaQ4OyEaFRCQdePI3YuWDc7D9Q=
+		Nl3KWHpjvpw8a0VNeWVbj6b29QA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>

@@ -15,12 +15,12 @@
 @interface ServiceManager : NSObject
 
 
--(void)startScan:(void (^)(Person* person))founfUserCallback ;
--(void)manualScan:(void (^)(Person* person))founfUserCallback ;
+-(void)startScan:(void (^)(Person* person))foundUserCallback ;
+-(void)manualScan:(void (^)(Person* person))foundUserCallback ;
 
 -(void)stopScan;
 
--(void)startAdvertise;
+-(void)startAdvertise:(void (^)(Person* person))foundUserCallback;
 
 -(void)stopAdvertise;
 
@@ -28,6 +28,6 @@
 -(void)setLog:(BOOL*)set;
 
 typedef  void (^errors)(int error);
-typedef void (^founfUserCallback)(Person* person);
+typedef void (^foundUserCallback)(Person* person);
 
 @end

@@ -46,10 +46,9 @@
     [super viewWillDisappear:animated];
     
     if ( _nameField.text.length!=0){
-       
-    
-    self.reg  =  [[Register alloc] initWithUinqueId:@"123" andCompanyToken:@"fiix-xyz" andName:_nameField.text];
-    [self.reg doRegistration:^(int result) {
+        
+        self.reg  =  [[Register alloc] initWithUniqueId:@"123" andCompanyToken:@"testSdk" andName:_nameField.text];
+        [self.reg doRegistration:^(int result) {
        
       //check results here
     }

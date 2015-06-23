@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51396C321B39FFC50038B31C /* IntroMiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396C311B39FFC50038B31C /* IntroMiKit.framework */; };
+		51396C331B3A01100038B31C /* IntroMiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51396C311B39FFC50038B31C /* IntroMiKit.framework */; };
+		51396C341B3A01100038B31C /* IntroMiKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51396C311B39FFC50038B31C /* IntroMiKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5176D23C1B0D254F00438C54 /* introMi.png in Resources */ = {isa = PBXBuildFile; fileRef = 5176D23B1B0D254F00438C54 /* introMi.png */; };
 		51C87AC71B092D8D00BF17B5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C87AC61B092D8D00BF17B5 /* RegisterViewController.m */; };
 		51C87ACC1B092E4F00BF17B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C87ACA1B092E4F00BF17B5 /* Main.storyboard */; };
@@ -17,8 +20,6 @@
 		51C8A0EB1B091CCD00A9E404 /* IntroMiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0E01B091CCD00A9E404 /* IntroMiAppDelegate.m */; };
 		51C8A0EC1B091CCD00A9E404 /* IntroMiTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0E21B091CCD00A9E404 /* IntroMiTableViewController.m */; };
 		51C8A0ED1B091CCD00A9E404 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8A0E31B091CCD00A9E404 /* main.m */; };
-		51D88B6A1B10113400E6505B /* IntroMiKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D88B681B10110900E6505B /* IntroMiKit.framework */; };
-		51D88B6B1B10113400E6505B /* IntroMiKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 51D88B681B10110900E6505B /* IntroMiKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F4DB43A319680299001826C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A219680299001826C4 /* CoreGraphics.framework */; };
 		F4DB43A519680299001826C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4DB43A419680299001826C4 /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
@@ -30,7 +31,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				51D88B6B1B10113400E6505B /* IntroMiKit.framework in Embed Frameworks */,
+				51396C341B3A01100038B31C /* IntroMiKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		51396C311B39FFC50038B31C /* IntroMiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IntroMiKit.framework; sourceTree = "<group>"; };
 		5176D23B1B0D254F00438C54 /* introMi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = introMi.png; sourceTree = SOURCE_ROOT; };
 		51C87AC61B092D8D00BF17B5 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = IntroMi/RegisterViewController.m; sourceTree = SOURCE_ROOT; };
 		51C87ACB1B092E4F00BF17B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = IntroMi/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
@@ -54,7 +56,6 @@
 		51C8A0E31B091CCD00A9E404 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = IntroMi/main.m; sourceTree = SOURCE_ROOT; };
 		51C8A0E41B091CCD00A9E404 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = IntroMi/RegisterViewController.h; sourceTree = SOURCE_ROOT; };
 		51D70C061B0656E200E09789 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
-		51D88B681B10110900E6505B /* IntroMiKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IntroMiKit.framework; sourceTree = "<group>"; };
 		F4DB439D19680299001826C4 /* IntroMiTestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroMiTestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4DB43A019680299001826C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F4DB43A219680299001826C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -68,7 +69,8 @@
 			files = (
 				F4DB43A319680299001826C4 /* CoreGraphics.framework in Frameworks */,
 				F4DB43A519680299001826C4 /* UIKit.framework in Frameworks */,
-				51D88B6A1B10113400E6505B /* IntroMiKit.framework in Frameworks */,
+				51396C331B3A01100038B31C /* IntroMiKit.framework in Frameworks */,
+				51396C321B39FFC50038B31C /* IntroMiKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +97,7 @@
 		F4DB439F19680299001826C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				51D88B681B10110900E6505B /* IntroMiKit.framework */,
+				51396C311B39FFC50038B31C /* IntroMiKit.framework */,
 				51D70C061B0656E200E09789 /* GLKit.framework */,
 				F4DB43A019680299001826C4 /* Foundation.framework */,
 				F4DB43A219680299001826C4 /* CoreGraphics.framework */,
